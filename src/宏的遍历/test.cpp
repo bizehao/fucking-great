@@ -1,5 +1,5 @@
 #include <iostream>
-#include "macro_for_each.h"
+#include "detail/meta_macro.hpp"
 
 template<typename T>
 T print(const char* name, const T& t) {
